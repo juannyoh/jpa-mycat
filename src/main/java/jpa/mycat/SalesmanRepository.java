@@ -11,6 +11,6 @@ import java.util.List;
 public interface SalesmanRepository extends JpaRepository<Salesman, Long> {
   Salesman save(Salesman salesman);
 
-  @Query(value = "select * from salesman limit 0,18", nativeQuery = true)
-  List<Salesman> findAll();
+//  @Query(value = "select * from salesman limit 0,18", nativeQuery = true)
+//  List<Salesman> findAll();
 }

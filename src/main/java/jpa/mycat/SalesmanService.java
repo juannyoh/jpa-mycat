@@ -16,12 +16,12 @@ public class SalesmanService {
   @Autowired
   private SalesmanRepository repository;
 
-  @Transactional(propagation = Propagation.REQUIRED)
+//  @Transactional(propagation = Propagation.REQUIRED)
   public Salesman save(Salesman salesman) {
     return repository.save(salesman);
   }
 
-  @Transactional(propagation = Propagation.NOT_SUPPORTED)
+//  @Transactional(propagation = Propagation.NOT_SUPPORTED)
   public List<Salesman> findAll() {
     return repository.findAll();
   }

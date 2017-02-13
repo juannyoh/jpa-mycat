@@ -1,8 +1,9 @@
 package jpa.mycat;
 
-import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+
+import org.hibernate.annotations.GenericGenerator;
 
 /**
  * Created by ssab on 17-1-5.
